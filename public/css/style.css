@@ -1,4 +1,19 @@
 body {
-    font-size:88px;
-    background-color:Blue;
+
    }
+
+.keys {
+    margin-top:33%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.key{
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    text-align:center;
+    border-style:dashed;
+    border-color:black;
+
+}
