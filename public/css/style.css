@@ -3,17 +3,14 @@ body {
    }
 
 #main_grid {
-
+    display:grid;
+    
 }
 
 
-.keys {
+.keys_grid {
     
-    display:grid;
-    grid-template-columns:10px 1fr 1fr 1fr 10px; /* 3 columns @ 1 fraction of grid size*/
-    grid-template-rows: 1fr 1fr 1fr; /* 3 rows @ 1 fraction of grid size*/
-    gap: 10px 15px;;
-    background-color: black;
+    background-color:black;
     text-align:center;
 }
 
