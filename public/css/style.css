@@ -4,17 +4,28 @@ body {
 
 #main_grid {
     display:grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 1fr 3fr 1fr;
     
 }
 
 
 .keys_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     
-    background-color:black;
-    text-align:center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+    background-color: black;
+    text-align: center;
 }
 
 .key {
+
     background-color:white;
     border-radius: 25%;
     margin: 10px;
